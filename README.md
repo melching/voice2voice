@@ -13,8 +13,10 @@ source .venv/bin/activate #or .\.venv\Scripts\Activate.ps1
 # pytorch+torchaudio version of your choice
 pip install torch torchvision torchaudio
 
-
 # some basic libs (you never know...)
-pip install tqdm notebook ipywidgets matplotlib scikit-learn numpy soundfile
+pip install tqdm notebook ipywidgets matplotlib scikit-learn numpy soundfile #and/or sox
+
+# create dataset dir
+mkdir datasets
 ``` 
 
